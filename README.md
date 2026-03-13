@@ -2,6 +2,7 @@
 # Aim
 Write a simple python program to Generate Matrix, Codeword, Hamming weight, Syndrome matrix and find the error on received codeword using Linear block code. 
 # Tools required
+Python-IDE
 # Program
 ```
 import numpy as np
@@ -39,6 +40,7 @@ print("Error Vector :",*e)
 print("Corrected Codeword :",*(np.mod(rc+e,2)))
 ```
 # Output Waveform
+<img width="300" height="500" alt="Screenshot (302)" src="https://github.com/user-attachments/assets/eae8a4d8-44f5-4f78-b151-69f7f4d120ff" />
 
 # Results
 Thus linear block code operation for the given input is successfully verified.
